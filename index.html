@@ -16,19 +16,88 @@
     </section>
 
     <section class="main-content">
-      <p>module Jekyll
-  module CroquisFilter
-    def truncateUTF8(input, length = 50, truncate_string = "...")
-      if input.nil? then return end
-      l = length.to_i - truncate_string.length
-      l = 0 if l &lt; 0
-      utf8 = input.unpack("U<em>")
-      utf8.length &gt; length.to_i ? utf8[0...l].pack("U</em>") + truncate_string : input
-    end
-  end
-end</p>
+      <h1>
+<a id="byte-compiled--optimized--dll-files" class="anchor" href="#byte-compiled--optimized--dll-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Byte-compiled / optimized / DLL files</h1>
 
-<p>Liquid::Template.register_filter(Jekyll::CroquisFilter)</p>
+<p><strong>pycache</strong>/
+*.py[cod]
+*$py.class</p>
+
+<h1>
+<a id="c-extensions" class="anchor" href="#c-extensions" aria-hidden="true"><span class="octicon octicon-link"></span></a>C extensions</h1>
+
+<p>*.so</p>
+
+<h1>
+<a id="distribution--packaging" class="anchor" href="#distribution--packaging" aria-hidden="true"><span class="octicon octicon-link"></span></a>Distribution / packaging</h1>
+
+<p>.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg</p>
+
+<h1>
+<a id="pyinstaller" class="anchor" href="#pyinstaller" aria-hidden="true"><span class="octicon octicon-link"></span></a>PyInstaller</h1>
+
+<h1>
+<a id="usually-these-files-are-written-by-a-python-script-from-a-template" class="anchor" href="#usually-these-files-are-written-by-a-python-script-from-a-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usually these files are written by a python script from a template</h1>
+
+<h1>
+<a id="before-pyinstaller-builds-the-exe-so-as-to-inject-dateother-infos-into-it" class="anchor" href="#before-pyinstaller-builds-the-exe-so-as-to-inject-dateother-infos-into-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>before PyInstaller builds the exe, so as to inject date/other infos into it.</h1>
+
+<p>*.manifest
+*.spec</p>
+
+<h1>
+<a id="installer-logs" class="anchor" href="#installer-logs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installer logs</h1>
+
+<p>pip-log.txt
+pip-delete-this-directory.txt</p>
+
+<h1>
+<a id="unit-test--coverage-reports" class="anchor" href="#unit-test--coverage-reports" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unit test / coverage reports</h1>
+
+<p>htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover</p>
+
+<h1>
+<a id="translations" class="anchor" href="#translations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Translations</h1>
+
+<p>*.mo
+*.pot</p>
+
+<h1>
+<a id="django-stuff" class="anchor" href="#django-stuff" aria-hidden="true"><span class="octicon octicon-link"></span></a>Django stuff:</h1>
+
+<p>*.log</p>
+
+<h1>
+<a id="sphinx-documentation" class="anchor" href="#sphinx-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sphinx documentation</h1>
+
+<p>docs/_build/</p>
+
+<h1>
+<a id="pybuilder" class="anchor" href="#pybuilder" aria-hidden="true"><span class="octicon octicon-link"></span></a>PyBuilder</h1>
+
+<p>target/</p>
 
       <footer class="site-footer">
 
