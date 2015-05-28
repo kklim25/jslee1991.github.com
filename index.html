@@ -1,276 +1,322 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head profile="http://gmpg.org/xfn/11">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="distribution" content="global" />
-<meta name="robots" content="follow, all" />
-<meta name="language" content="en, fr, de, ru" />
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LEFT TEMPLATE</title>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/social-icons.css" type="text/css" media="screen" />
+	
+		<!-- THEME -->
+		<link rel="stylesheet" href="skins/stone/style.css" type="text/css" media="screen" />
+		
+		<!-- JS -->
+		<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+		<script type="text/javascript" src="js/jqueryui.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript" src="js/quicksand.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<!--[if IE]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- ENDS JS -->
+		
+		<!--[if IE 6]>
+			<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+			<script>
+	      		/* EXAMPLE */
+	      		//DD_belatedPNG.fix('*');
+	    	</script>
+		<![endif]-->
+		
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<link rel="stylesheet" media="screen" href="css/superfish-left.css" /> 
+		<script type="text/javascript" src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script type="text/javascript" src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-twitter/tip-twitter.css" type="text/css" />
+		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+		<script type="text/javascript" src="js/poshytip-1.0/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  type="text/css"/> 
+		<script src="js/tweet/jquery.tweet.js" type="text/javascript"></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- Fancybox -->
+		<link rel="stylesheet" href="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+		<!-- ENDS Fancybox -->
+		
+		<!-- jflickrfeed -->
+		<link href="css/jflickrfeed.css" rel="stylesheet" type="text/css" media="screen" /> 
+		<script src="js/jflickrfeed/jflickrfeed.js"></script>
+		
+		<link href="js/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
+		<script src="js/jflickrfeed/colorbox/jquery.colorbox.js"></script>
+		<!-- ENDS jflickrfeed -->
+		
+		<!-- prettyPhoto -->
+		<script type="text/javascript" src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+				
+		<!-- Nivo slider -->
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<script src="js/nivo-slider/jquery.nivo.slider.js" type="text/javascript"></script>
+		<!-- ENDS Nivo slider -->
+		
+		<!-- tabs -->
+		<link rel="stylesheet" href="css/tabs.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/tabs.js"></script>
+  		<!-- ENDS tabs -->
 
-<title>Businessus | Portfolio + Blog - HTML template - wordpress-premium.com</title>
-<meta name="generator" content="" />
-<link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon" />
-
-<style type="text/css" media="all">@import "style.css";</style>
-<!--[if IE]><link href="ie.css" rel="stylesheet" type="text/css"><![endif]-->
-<script type="text/javascript">
-<!--
-if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="opera.css" />');}
-//-->
-</script>
-<script type="text/javascript" src="compressed.js"></script>
-</head>
-<body>
-<div id="layout1">
-	<div id="header">
-		<h1><a href="#">Company<strong>Name</strong></a> <span>Your Slogan Goes Here</span></h1>
-		<a href="#" class="rss">RSS</a>
-		<form id="searchform" method="get" action="post">
-			<div>
-			<input 
-			type="text" 
-			onblur="this.value=(this.value=='') ? 'Search' : this.value;" 
-			onfocus="this.value=(this.value=='Search') ? '' : this.value;" 
-			maxlength="150" 
-			value="Search" 
-			name="search"
-			class="searchfield"
-			/>
-			<input 
-			type="submit" 
-			class="sbutt" 
-			value="GO"
-			/>
-			</div>
-		</form>
-	</div><!-- end header -->
-
-	<div class="containercontent">	
-	<div class="containerleft">
-		<div id="menu">
-			<ul>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li class="active"><a href="#">Our Blog</a></li>
-			<li><a href="#">Contact Us</a></li>
+		<!--[if IE 7]>
+			<link rel="stylesheet" type="text/css" media="screen" href="css/ie7-hacks.css" />
+		<![endif]-->
+		<!--[if IE 8]>
+			<link rel="stylesheet" type="text/css" media="screen" href="css/ie8-hacks.css" />
+		<![endif]-->
+		<!-- ENDS CSS -->	
+		
+	</head>
+	<body>
+	
+	<!-- WRAPPER -->
+	<div id="wrapper">
+	
+		<!-- SIDEBAR -->
+		<div id="sidebar">
+			<!-- logo -->
+			<a href="index.html"><img src="img/logo.png" alt="Left template" id="logo" /></a>
+						
+			<!-- search -->
+			<form  method="get" id="searchform" action="#">
+				<div>
+					<input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
+					<input type="submit" id="searchsubmit" value=" " />
+				</div>
+			</form>
+			<!-- ENDS search -->
+						
+			<!-- Navigation -->
+			<ul id="nav" class="sf-menu sf-vertical">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="features.html">FEATURES</a>
+					<ul>
+						<li><a href="features.html">Columns layout</a>
+						<li><a href="features-typography.html">Typography</a>
+						<li><a href="features-icons.html">General icons</a>
+						<li><a href="features-social-icons.html">Social icons</a>
+						<li><a href="features-accordion.html">Accordion boxes</a>
+						<li><a href="features-toggle.html">Toggle boxes</a>
+						<li><a href="features-tabs.html">Tabbed content</a>
+					</ul>
+				</li>
+				<li><a href="skins.html">SKINS</a></li>
+				<li><a href="gallery.html">GALLERY</a>
+					<ul>
+						<li><a href="gallery.html">Image gallery</a>
+							<ul>
+								<li><a href="gallery.html">Two columns layout</a></li>
+								<li><a href="gallery-fourcols.html">Four columns layout</a></li>
+							</ul>
+						</li>
+						<li><a href="gallery-video.html">Video gallery</a></li>
+					</ul>
+				</li>
+				<li class="current-menu-item"><a href="blog.html">BLOG</a>
+					<ul>
+						<li><a href="blog.html">Full blog</a></li>
+						<li><a href="blog-compact.html">Compact blog</a></li>
+					</ul>
+				</li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="http://luiszuno.com/blog/downloads/left-template">DOWNLOAD NOW!</a></li>
 			</ul>
-		</div><!-- end menu -->
-		<h4>Our Clients</h4>
-		<p class="white mb30 pr20">Lorem ipsum dolor sit amet sectetuer adipiscing.</p>
-		<img src="img/z-logo1.gif" alt="" />
-		<img src="img/z-logo2.gif" alt="" />
-		<img src="img/z-logo3.gif" alt="" />
-		<img src="img/z-logo4.gif" alt="" />
-	</div><!-- end containerleft -->
-	
-		<div class="content">
-		<div class="f9 upp">
-		<a href="#">Home</a> &gt; Our Blog
-		</div><!-- end f9 -->
-		<h2>
-		Our Blog
-		</h2>
+			<!-- Navigation -->	
+					
+			<!-- categories -->
+			<ul class="cat-list">
+				<li><h6>Categories</h6></li>
+				<li><a href="#" title="View posts">Design (11)</a></li>
+				<li><a href="#" title="View all posts">Web (6)</a></li> 
+				<li><a href="#" title="View all posts">Photo (3)</a></li>
+				<li><a href="#" title="View all posts">Coding (16)</a></li>
+				<li><a href="#" title="View all posts">Design (41)</a></li>
+				<li><a href="#" title="View all posts">Web (6)</a></li> 
+				<li><a href="#" title="View all posts">Photo (5)</a></li> 
+				<li><a href="#" title="View all posts">Coding (23)</a></li>
+			</ul>
+			<!-- categories -->	
+			
+			<!-- latest tweets -->
+			<div class="tweet"><h6>Tweets</h6></div> 
+			<!-- ENDS latest tweets -->
+			
+			<!-- Social -->
+			<ul class="social">
+				<li><h6>Follow us</h6>
+				<li><a href="http://www.facebook.com" class="facebook" title="Become a fan"></a></li>
+				<li><a href="http://www.twitter.com" class="twitter" title="Follow our tweets"></a></li>
+				<li><a href="http://www.dribbble.com" class="dribbble" title="View our work"></a></li>
+				<li><a href="http://www.addthis.com" class="addthis" title="Tell everybody"></a></li>
+				<li><a href="http://www.vimeo.com" class="vimeo" title="View our videos"></a></li>
+				<li><a href="http://www.youtube.com" class="youtube" title="View our videos"></a></li>
+			</ul>
+			<!-- ENDS Social -->
+
+		</div>
+		<!-- ENDS SIDEBAR -->
 		
-		<div class="archivepost">
-		<div class="resplink">
-		<a class="linkgreen" href="#">One response</a>
-		</div><!-- end resplink -->
-		<h3>
-		<a href="#">
-		Lorem Ipsum Dolor
-		</a>
-		</h3>
-		<div>
-		<img class="b3lgray absolute mt5" src="img/user50.gif" alt="" />
-		<p>
-		Praesent egestas ullamcorper arcu. Maecenas sit amet turpis. Aliquam pretium quam ac pede. Mauris eget orci id leo rhoncus volutpat.
-		<a href="#">
-		Read&nbsp;More...
-		</a>
-		</p>
-		<div class="bt1lgray ml70">
-		<div class="info f9 fl br1lgray">Autor: iGor</div>
-		<div class="info f9 fl br1lgray">Date: Dec 24th, 2008</div>
-		<div class="info f9 fl">Tags: <a href="#">fames</a>, <a href="#">ac turpis</a>, <a href="#">egestas</a></div>
-		</div><!-- end bt1lgray -->
-		<div class="clear pb40"><!-- --></div>
-		</div>
-		</div><!-- end archivepost -->
+		<!-- MAIN -->
+		<div id="main">
 
-		<div class="archivepost">
-		<div class="resplink">
-		<a class="linkgreen" href="#">Leave a reply</a>
-		</div><!-- end resplink -->
-		<h3>
-		<a href="#">
-		Pellentesque habitant morbi
-		</a>
-		</h3>
-		<div>
-		<img class="b3lgray absolute mt5" src="img/user50.gif" alt="" />
-		<p>
-		Praesent egestas ullamcorper arcu. Maecenas sit amet turpis. Aliquam pretium quam ac pede. Mauris eget orci id leo rhoncus volutpat.
-		<a href="#">
-		Read&nbsp;More...
-		</a>
-		</p>
-		<div class="bt1lgray ml70">
-		<div class="info f9 fl br1lgray">Autor: iGor</div>
-		<div class="info f9 fl br1lgray">Date: Dec 24th, 2008</div>
-		<div class="info f9 fl">Tags: <a href="#">fames</a>, <a href="#">ac turpis</a>, <a href="#">egestas</a></div>
-		</div><!-- end bt1lgray -->
-		<div class="clear pb40"><!-- --></div>
-		</div>
-		</div><!-- end archivepost -->
-		
-		<div class="archivepost">
-		<div class="resplink">
-		<a class="linkgreen" href="#">2 responses</a>
-		</div><!-- end resplink -->
-		<h3>
-		<a href="#">
-		Nullam auctor lorem
-		</a>
-		</h3>
-		<div>
-		<img class="b3lgray absolute mt5" src="img/user50.gif" alt="" />
-		<p>
-		Praesent egestas ullamcorper arcu. Maecenas sit amet turpis. Aliquam pretium quam ac pede. Mauris eget orci id leo rhoncus volutpat.
-		<a href="#">
-		Read&nbsp;More...
-		</a>
-		</p>
-		<div class="bt1lgray ml70">
-		<div class="info f9 fl br1lgray">Autor: iGor</div>
-		<div class="info f9 fl br1lgray">Date: Dec 24th, 2008</div>
-		<div class="info f9 fl">Tags: <a href="#">fames</a>, <a href="#">ac turpis</a>, <a href="#">egestas</a></div>
-		</div><!-- end bt1lgray -->
-		<div class="clear pb40"><!-- --></div>
-		</div>
-		</div><!-- end archivepost -->
-		
-		<div class="right pt10 h40">
-		<a class="linkgreen" href="#">Next</a>
-		<a class="linkgreen" href="#">Previous</a>
-		</div>
-
-		</div><!-- end content -->
-		<div class="sidebar">
-		<ul class="sidebar3">
-
-		<li>
-		<h5 class="sidetitle">
-		Tags
-		</h5>
-		<div class="center lh25p f12 pt10">
-		<a class="f11" href="#">Web Sites</a>, 
-		<a class="f18" href="#">Icons</a>, 
-		<a class="f12" href="#">Logos</a>, 
-		<a class="f14" href="#">Corporate ID</a>, 
-		<a class="f9" href="#">Web Sites</a>, 
-		<a class="f12" href="#">Icons</a>, 
-		<a class="f18" href="#">Logos</a>, 
-		<a class="f10" href="#">Corporate ID</a>, 
-		<a class="f14" href="#">Web Sites</a>, 
-		<a class="f9" href="#">Icons</a>, 
-		<a class="f9" href="#">Logos</a>, 
-		<a class="f14" href="#">Corporate ID</a>
-		</div>
-		</li>
-
-		<li>
-		<h5 class="sidetitle">
-		Calendar
-		</h5>
-		<div id="calendar_wrap">
-		<table summary="Calendar" id="wp-calendar">
-		<caption>January 2009</caption>
-		<thead>
-		<tr>
-		<th title="Monday" scope="col" abbr="Monday">M</th>
-		<th title="Tuesday" scope="col" abbr="Tuesday">T</th>
-		<th title="Wednesday" scope="col" abbr="Wednesday">W</th>
-		<th title="Thursday" scope="col" abbr="Thursday">T</th>
-		<th title="Friday" scope="col" abbr="Friday">F</th>
-		<th title="Saturday" scope="col" abbr="Saturday">S</th>
-		<th title="Sunday" scope="col" abbr="Sunday">S</th>
-		</tr>
-		</thead>
-		<tfoot>
-		<tr>
-		<td id="prev" colspan="3" abbr="October"><a href="#">&larr; Oct</a></td>
-		<td id="next" colspan="4" abbr="December"><a href="#">Dec &rarr;</a></td>
-		</tr>
-		</tfoot>
-		<tbody>
-		<tr>
-		<td class="pad" colspan="5"> </td><td>1</td><td>2</td>
-		</tr>
-		<tr>
-		<td>3</td><td>4</td><td><a href="#">5</a></td><td>6</td><td>7</td><td>8</td><td>9</td>
-		</tr>
-		<tr>
-		<td>10</td><td>11</td><td>12</td><td><a href="#">13</a></td><td>14</td><td><a href="#">15</a></td><td>16</td>
-		</tr>
-		<tr>
-		<td>17</td><td id="today">18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
-		</tr>
-		<tr>
-		<td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
-		</tr>
-		</tbody>
-		</table>
-		</div>
-		</li>
-
-		<li>
-		<h5 class="sidetitle">
-		Archive
-		</h5>
-		<ul class="archive">
-		<li><a title="January 2009" href="#">January 2009</a></li>
-		<li><a title="December 2008" href="#">December 2008</a></li>
-		<li><a title="November 2008" href="#">November 2008</a></li>
-		<li><a title="October 2008" href="#">October 2008</a></li>
-		<li><a title="September 2008" href="#">September 2008</a></li>
-		<li><a title="August 2008" href="#">August 2008</a></li>
-		</ul>
-		</li>
-
-		</ul>
-		</div><!-- end sidebar -->
-	</div><!-- end containercontent -->
+			<!-- HEADER -->
+			<div id="header">
+				<div id="page-title">The blog</div>
+				<!-- Breadcrumb-->
+				<div id="breadcrumbs">
+					You are here: 
+					<a title="Home" href="#">Home</a> &raquo; 
+					<a title="Features" href="#">Blog</a>
+				</div>
+				<!-- ENDS Breadcrumb-->	
+			</div>
+			<!-- ENDS HEADER -->
+			
+			<!-- CONTENT -->
+			<div id="content">
+						
+				<!-- PAGE CONTENT -->
+				<div id="page-content">
+				
+					<!-- Posts -->
+					<div class="post">
+						<h1><a href="single.html">Lorem ipsum dolor amet</a></h1>
+						<!-- meta -->
+						<ul class="meta">
+							<li>By <a href="#">Ansimuz</a>&nbsp;</li> 
+							<li> on Dec 27th 2010 &nbsp;</li>
+							<li> with 47 comments &nbsp;</li>
+							<li> in <a href="#">Webdesign</a>&nbsp;</li>
+						</ul>
+						<!-- ENDS meta -->
+						<!-- feature image -->
+						<div class="feature-image">
+							<a href="single.html"><img src="img/dummies/584x300.jpg" alt="Feature image" /></a>
+						</div>
+						<!-- ENDS feature image -->
+						<div class="the-excerpt">
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
+						</div>
+						<a href="single.html" class="link-button"><span>Read more</span></a>
+					</div>
+					
+					<div class="post">
+						<h1><a href="single.html">Lorem ipsum dolor amet</a></h1>
+						<!-- meta -->
+						<ul class="meta">
+							<li>By <a href="#">Ansimuz</a> &nbsp;</li> 
+							<li> on Dec 27th 2010 &nbsp;</li>
+							<li> with 47 comments &nbsp;</li>
+							<li> in <a href="#">Webdesign</a> &nbsp;</li>
+						</ul>
+						<!-- ENDS meta -->
+						<!-- feature image -->
+						<div class="feature-image">
+							<a href="single.html"><img src="img/dummies/584x300.jpg" alt="Feature image" /></a>
+						</div>
+						<!-- ENDS feature image -->
+						<div class="the-excerpt">
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
+						</div>
+						<a href="single.html" class="link-button"><span>Read more</span></a>
+					</div>
+					<!-- ENDS posts -->
+					
+					<!-- Pagination -->
+					<ul class='pager'>
+						<li class="first-child"><a href="#">prev</a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li class="last-child"><a href="#">next</a></li>
+					</ul>
+					<!-- ENDS Pagination -->
 	
+					
+				</div>
+				<!-- ENDS PAGE-CONTENT -->
+			
+			</div>
+			<!-- ENDS CONTENT -->
+			
+		</div>
+		<!-- ENDS MAIN -->
+	</div>
+	<!-- ENDS WRAPPER -->
 
+	<!-- FOOTER -->
+	<div id="footer">
+		<!-- FOOTER-WRAPPER -->
+		<div id="footer-wrapper">
+			<!-- footer-cols -->
+			<ul id="footer-cols">
+				<li class="col clear-col">
+					<h6>About the theme</h6>
+					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+				</li>
+				<li class="col">
+					<h6>Categories</h6>
+					<ul>
+						<li><a href="#">Webdesign</a></li>
+						<li><a href="#/">Wordpress</a></li>
+						<li><a href="#">Photo</a></li>
+						<li><a href="#">Code</a></li>
+						<li><a href="#">Web design</a></li>
+						<li><a href="#/">Marketplace</a></li>
+						<li><a href="#">Writting</a></li>
+						<li><a href="#">Drawings</a></li>
+					</ul>
+				</li>
+				<!-- Flickr -->
+				<li class="col">
+					<h6>Flickr stream</h6>
+					<ul id="flickr-stream" class="thumbs">
+					</ul>
+				</li>
+			<!-- ENDS Flickr -->
+			</ul>
+			<!-- ENDS footer-cols -->
+			<!-- footer-bottom -->
+			<div id="footer-bottom">
+				<div id="bottom-left">
+					&copy; 2011 Ansimuz. All Rights Reserved.  <a href="http://themeforest.net/user/Ansimuz?ref=ansimuz">View portfolio</a>
+				</div>
+				<div id="bottom-right">To top</div>
+			</div>
+			<!-- ENDS footer-bottom -->
+		</div>
+		<!-- ENDS FOOTER-WRAPPER -->
+	</div>
+	<!-- ENDS FOOTER -->
 	
-	<div class="clear"><!-- --></div>
-</div><!-- end layout -->
-
-<div id="footer">
-<table width="990px">
-  <tr>
-    <td class="foot1"><!-- --></td>
-    <td class="foot2">
-	<span>
-	2009 &copy; CompanyName
-	</span>
-	<span>
-	Designed by <a class="invert" href="http://wordpress-premium.com">Wordpress-Premium</a>
-	</span>
-	</td>
-    <td class="foot3">
-	<span>
-	<a href="#">About Us</a> |
-	<a href="#">Services</a> |
-	<a href="#">Portfolio</a> |
-	<a href="#">Our Blog</a> |
-	<a href="#">Contact Us</a>
-	</span>
-	</td>
-  </tr>
-</table>
-
-
-</div><!-- end footer -->
-</body></html>
+	
+	</body>
+</html>
